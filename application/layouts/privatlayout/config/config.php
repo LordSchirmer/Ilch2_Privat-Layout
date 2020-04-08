@@ -70,43 +70,59 @@ class Config extends \Ilch\Config\Install
                 'type' => 'text',
                 'default' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elitr',
                 ],            
-            'slider1' => [
+            'sliderImage1' => [
                 'type' => 'mediaselection',
                 'default' => 'application/layouts/privatlayout/img/banner/pic1.jpg',
-                'description' => 'descSlider',
+                'description' => 'descSlider1',
+                ],
+            'sliderButton2' => [
+                'type' => 'flipswitch',
+                'default' => 'Slider 2',
                 ],
             'sliderText2' => [
                 'type' => 'text',
                 'default' => 'At vero eos et accusam et justo duo dolores et ea rebum',
                 ],
-            'slider2' => [
+            'sliderImage2' => [
                 'type' => 'mediaselection',
                 'default' => 'application/layouts/privatlayout/img/banner/pic2.jpg',
                 'description' => 'descSlider',
+                ],
+            'sliderButton3' => [
+                'type' => 'flipswitch',
+                'default' => 'Slider 3',
                 ],
             'sliderText3' => [
                 'type' => 'text',
                 'default' => 'Stet clita kasd gubergren',
                 ],
-            'slider3' => [
+            'sliderImage3' => [
                 'type' => 'mediaselection',
                 'default' => 'application/layouts/privatlayout/img/banner/pic3.jpg',
                 'description' => 'descSlider',
+                ],
+            'sliderButton4' => [
+                'type' => 'flipswitch',
+                'default' => 'Slider 4',
                 ],
             'sliderText4' => [
                 'type' => 'text',
                 'default' => 'Sed ut perspiciatis unde omnis iste natus error sit',
                 ],
-            'slider4' => [
+            'sliderImage4' => [
                 'type' => 'mediaselection',
                 'default' => 'application/layouts/privatlayout/img/banner/pic4.jpg',
                 'description' => 'descSlider',
+                ],
+            'sliderButton5' => [
+                'type' => 'flipswitch',
+                'default' => 'Slider 5',
                 ],
             'sliderText5' => [
                 'type' => 'text',
                 'default' => 'Quis autem vel eum iure reprehenderit qui in ea',
                 ],
-            'slider5' => [
+            'sliderImage5' => [
                 'type' => 'mediaselection',
                 'default' => 'application/layouts/privatlayout/img/banner/pic5.jpg',
                 'description' => 'descSlider',
