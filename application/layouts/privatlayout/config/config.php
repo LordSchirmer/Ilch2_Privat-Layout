@@ -5,7 +5,7 @@ class Config extends \Ilch\Config\Install
 {
     public $config = [
         'name' => 'Ilch-Privat',
-        'version' => '1.0.0',
+        'version' => '1.0.1',
         'ilchCore' => '2.1.32',
         'author' => 'Lord|Schirmer',
         'link' => 'https://www.ilch.de',
