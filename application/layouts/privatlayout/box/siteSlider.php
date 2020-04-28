@@ -1,29 +1,29 @@
 <div class="flexslider">
     <ul class="slides">
         <?php
-        $i = 1;
-        while ($i <= 5) {
-            if ($i == 1) {
-                if ($this->getLayoutSetting('sliderImage'.$i) != '') { ?>
+        $imgNo = 1;
+        while ($imgNo <= 5) {
+            if ($imgNo == 1) {
+                if ($this->getLayoutSetting('sliderImage' . $imgNo)) { ?>
                     <li>
-                        <img src="<?=$this->getBaseUrl('application/layouts/privatlayout/img/banner/pic1.jpg') ?>" alt="Slider <?=$i ?>" />
-                        <p class="flex-caption"><?=$this->getLayoutSetting('sliderText'.$i) ?></p>
+                        <img src="<?=$this->getBaseUrl($this->getLayoutSetting('sliderImage' . $imgNo)) ?>" alt="Slider <?=$imgNo ?>" />
+                        <p class="flex-caption"><?=$this->getLayoutSetting('sliderText' . $imgNo) ?></p>
                     </li>
                 <?php } else { ?>
                     <li>
-                        <img src="<?=$this->getBaseUrl($this->getLayoutSetting('sliderImage'.$i)) ?>" alt="Slider <?=$i ?>" />
-                        <p class="flex-caption"><?=$this->getLayoutSetting('sliderText'.$i) ?></p>
+                        <img src="<?=$this->getBaseUrl('application/layouts/privatlayout/img/banner/pic1.jpg') ?>" alt="Slider <?=$imgNo ?>" />
+                        <p class="flex-caption"><?=$this->getLayoutSetting('sliderText' . $imgNo) ?></p>
                     </li>
                 <?php }
             } else {
-                if ($this->getLayoutSetting('sliderImage'.$i) != '' AND $this->getLayoutSetting('sliderButton'.$i) == 1) { ?>
+                if ($this->getLayoutSetting('sliderImage' . $imgNo) && $this->getLayoutSetting('sliderButton' . $imgNo)) { ?>
                     <li>
-                        <img src="<?=$this->getBaseUrl($this->getLayoutSetting('sliderImage'.$i)) ?>" alt="Slider <?=$i ?>" />
-                        <p class="flex-caption"><?=$this->getLayoutSetting('sliderText'.$i) ?></p>
+                        <img src="<?=$this->getBaseUrl($this->getLayoutSetting('sliderImage' . $imgNo)) ?>" alt="Slider <?=$imgNo ?>" />
+                        <p class="flex-caption"><?=$this->getLayoutSetting('sliderText' . $imgNo) ?></p>
                     </li>
                 <?php }
             }
-            $i++;
+            $imgNo++;
         }
         ?>
     </ul>
