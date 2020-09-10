@@ -15,7 +15,7 @@ if ($this->getLayoutSetting('button2') == 1) {
     $buttons .= '<a target="_blank" href="'.$this->getLayoutSetting('urlButton2').'" class="buttonlink">'.$this->getLayoutSetting('textButton2').'</a>';
 }
 if ($this->getLayoutSetting('button3') == 1) {
-    $buttons .= '<a target="_blank" href="'.$this->getLayoutSetting('urlButton2').'" class="buttonlink">'.$this->getLayoutSetting('textButton3').'</a>';
+    $buttons .= '<a target="_blank" href="'.$this->getLayoutSetting('urlButton3').'" class="buttonlink">'.$this->getLayoutSetting('textButton3').'</a>';
 }
 if ($this->getLayoutSetting('button1') == 1 OR $this->getLayoutSetting('button2') == 1 OR $this->getLayoutSetting('button3') == 1) {
     echo '<p>'.$buttons.'</p>';
