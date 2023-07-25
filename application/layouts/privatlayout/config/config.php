@@ -1,11 +1,13 @@
 <?php
 namespace Layouts\PrivatLayout\Config;
 
+use Modules\Admin\Mappers\LayoutAdvSettings;
+
 class Config extends \Ilch\Config\Install
 {
     public $config = [
         'name' => 'Ilch-Privat',
-        'version' => '1.0.2',
+        'version' => '1.1.0',
         'ilchCore' => '2.1.32',
         'author' => 'Lord|Schirmer',
         'link' => 'https://www.ilch.de',
@@ -21,7 +23,7 @@ class Config extends \Ilch\Config\Install
                 'description' => 'descSiteTitle',
                 ],
             'siteInfo' => [
-                'type' => 'ckeditorbbcode',
+                'type' => 'ckeditorhtml',
                 'default' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
                 ],
             'buttons' => [
@@ -136,8 +138,12 @@ class Config extends \Ilch\Config\Install
         ],
     ];
 
-    public function getUpdate($installedVersion)
+    public function getUpdate(string $installedVersion)
     {
-
+        switch ($installedVersion) {
+            case '1.0.0':
+            case '1.0.1':
+            case '1.0.2':
+        }
     }
 }
