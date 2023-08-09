@@ -1,7 +1,8 @@
 <?php
+
 return [
     'siteLogo' => '<b>Logo der Seite</b>',
-    'siteTitle' => '<b>Titel der Seite</b>',    
+    'siteTitle' => '<b>Titel der Seite</b>',
     'descSiteTitle' => 'max. 40 Zeichen',
     'siteInfo' => '<b>Infotext der Seite</b>',
     'buttons' => 'Schaltflächen',

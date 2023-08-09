@@ -1,7 +1,8 @@
 <?php
+
 return [
     'siteLogo' => '<b>Site Logo</b>',
-    'siteTitle' => '<b>Site Title</b>',    
+    'siteTitle' => '<b>Site Title</b>',
     'descSiteTitle' => 'max. 40 Signs',
     'siteInfo' => '<b>Site Infotext</b>',
     'buttons' => 'Buttons',
