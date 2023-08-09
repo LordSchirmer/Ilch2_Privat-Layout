@@ -1,3 +1,7 @@
+<?php
+
+/** @var \Ilch\Layout\Frontend $this */
+?>
 <div class="flexslider">
     <ul class="slides">
         <?php

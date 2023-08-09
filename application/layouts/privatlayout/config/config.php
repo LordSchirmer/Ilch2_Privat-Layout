@@ -1,14 +1,13 @@
 <?php
-namespace Layouts\PrivatLayout\Config;
 
-use Modules\Admin\Mappers\LayoutAdvSettings;
+namespace Layouts\PrivatLayout\Config;
 
 class Config extends \Ilch\Config\Install
 {
     public $config = [
         'name' => 'Ilch-Privat',
-        'version' => '1.1.0',
-        'ilchCore' => '2.1.32',
+        'version' => '1.1.1',
+        'ilchCore' => '2.1.52',
         'author' => 'Lord|Schirmer',
         'link' => 'https://www.ilch.de',
         'desc' => 'Privat Layout',
@@ -40,7 +39,7 @@ class Config extends \Ilch\Config\Install
             'urlButton1' => [
                 'type' => 'text',
                 'default' => 'https://www.ilch.de/',
-                ],                
+                ],
              'button2' => [
                 'type' => 'flipswitch',
                 'default' => '1',
@@ -52,7 +51,7 @@ class Config extends \Ilch\Config\Install
             'urlButton2' => [
                 'type' => 'text',
                 'default' => 'https://www.google.de/',
-                ],                
+                ],
             'button3' => [
                 'type' => 'flipswitch',
                 'default' => '1',
@@ -71,7 +70,7 @@ class Config extends \Ilch\Config\Install
             'sliderText1' => [
                 'type' => 'text',
                 'default' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elitr',
-                ],            
+                ],
             'sliderImage1' => [
                 'type' => 'mediaselection',
                 'default' => 'application/layouts/privatlayout/img/banner/pic1.jpg',
