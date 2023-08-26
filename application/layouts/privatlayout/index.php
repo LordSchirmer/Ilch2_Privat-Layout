@@ -44,7 +44,6 @@
                                 'render' => false
                             ],
                         ]) ?>
-                    ?>
                 </ul>
             </nav><!-- end navigation -->
         </header><!-- end header -->
