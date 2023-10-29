@@ -65,18 +65,18 @@
         <div id="main" class="wrapper">
             <!-- content area -->
             <section id="content">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
+                <div class="card card-default">
+                    <div class="card-header">
                         <?=$this->getHmenu() ?>
                     </div>
-                    <div class="panel-body">
+                    <div class="card-body">
                         <?=$this->getContent() ?>
                     </div>
                   </div>
             </section><!-- end content -->
             <!-- sidebar area -->
             <aside>
-                <?=$this->getMenu(2, '<div class="panel panel-default">
+                <?=$this->getMenu(2, '<div class="card card-default">
                     <div class="box-header">%s</div>
                     <div class="box-body">%c</div>
                 </div>') ?>

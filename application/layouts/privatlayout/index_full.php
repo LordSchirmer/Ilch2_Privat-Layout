@@ -65,9 +65,9 @@
         <div id="main" class="wrapper">
             <!-- content area -->
             <section id="content-full">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><?=$this->getHmenu() ?></div>
-                    <div class="panel-body">
+                <div class="card card-default">
+                    <div class="card-header"><?=$this->getHmenu() ?></div>
+                    <div class="card-body">
                           <?=$this->getContent() ?>
                     </div>
                 </div>
