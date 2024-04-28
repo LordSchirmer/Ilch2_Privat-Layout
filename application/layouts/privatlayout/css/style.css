@@ -319,6 +319,12 @@ h6 {
 #forum .btn.btn-primary.btn-sm.p-0.pe-1::after {
     content: "\00a0";
 }
+#forum #topicDelete.btn.btn-sm.btn-primary,
+#forum #topicMove.btn.btn-sm.btn-primary,
+#forum #topicChangeStatus.btn.btn-sm.btn-primary,
+#forum #topicChangeType.btn.btn-sm.btn-primary {
+    padding: 0.2rem 0.4rem;
+}
 #forum img[src*="icon_post_target.png"] {
     content: url("../img/forum/icon_post_target.png");
 }
