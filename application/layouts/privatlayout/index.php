@@ -15,7 +15,7 @@
         <link href="<?=$this->getLayoutUrl('css/flexslider.css') ?>" rel="stylesheet">
         <link href="<?=$this->getLayoutUrl('css/style.css') ?>" rel="stylesheet">
         <?=$this->getCustomCSS() ?>
-        <script src="<?=$this->getVendorUrl('twbs/bootstrap/dist/js/bootstrap.bundle.min.js') ?>"></script>
+        <script src="<?=$this->getVendorUrl('twbs/bootstrap/dist/js/bootstrap.min.js') ?>"></script>
         <script src="<?=$this->getLayoutUrl('js/modernizr.min.js') ?>"></script>
     </head>
     <body id="top">
@@ -104,7 +104,7 @@
             </div>
         </footer><!-- end footer area -->
         <?=$this->getFooter() ?>
-        <script>window.jQuery || document.write('<script src="<?=$this->getVendorUrl('npm-asset/jquery/dist/jquery.min.js') ?>">\x3C/script>')</script>
+        <script>window.jQuery || document.write('<script src="<?=$this->getLayoutUrl('js/jquery.min.js') ?>">\x3C/script>')</script>
         <script src="<?=$this->getLayoutUrl('js/jquery.flexslider.min.js') ?>" defer></script>
         <!-- settings -->
         <script src="<?=$this->getLayoutUrl('js/main.js') ?>"></script>
