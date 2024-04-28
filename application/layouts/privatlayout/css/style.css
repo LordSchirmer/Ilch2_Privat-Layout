@@ -319,6 +319,15 @@ h6 {
 #forum .btn.btn-primary.btn-sm.p-0.pe-1::after {
     content: "\00a0";
 }
+#forum img[src*="icon_post_target.png"] {
+    content: url("../img/forum/icon_post_target.png");
+}
+#forum img[src*="topic_read.png"] {
+    content: url("../img/forum/topic_read.png");
+}
+#forum dl.icon.topic-read {
+    background-image: url("../img/forum/topic_read.png") !important;
+}
 
 /* footer */
 footer {
