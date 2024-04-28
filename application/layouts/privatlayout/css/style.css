@@ -276,6 +276,47 @@ h6 {
     line-height: 30px;
     border-bottom: 1px dotted #ccc;
 }
+/* forum */
+#forum h1 {
+    display: none;
+}
+#forum .title a,
+#forum .title a:visited {
+    color: #FFF;
+}
+#forum .btn.btn-primary,
+#forum .btn.btn-primary:visited,
+#forum input.btn.btn-sm.btn-primary,
+#forum input.btn.btn-sm.btn-primary:visited {
+    color: #FFF;
+    padding: 0.25rem 0.5rem;
+    background-color: #337ab7;
+    border-color: #2e6da4; 
+}
+#forum .btn.btn-sm.btn-primary,
+#forum .btn.btn-sm.btn-primary:visited {
+    color: #FFF;
+    padding: 0 0.5rem 0 0;
+    background-color: #337ab7;
+    border-color: #2e6da4;   
+}
+#forum .btn.btn-primary:hover,
+#forum .btn.btn-sm.btn-primary:hover {
+    background: #286192;
+}
+#forum .btn.btn-sm.btn-primary span.badge {
+    padding: 0.5rem;
+    margin: 1px 0.5rem -1px 0;
+    background: #286192;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#forum .btn.btn-primary.btn-sm.p-0.pe-1::after {
+    content: "\00a0";
+}
+
 /* footer */
 footer {
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
