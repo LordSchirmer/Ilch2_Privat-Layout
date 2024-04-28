@@ -280,6 +280,9 @@ h6 {
 #forum h1 {
     display: none;
 }
+#forum dd {
+    margin: 0;
+}
 #forum .title a,
 #forum .title a:visited {
     color: #FFF;
