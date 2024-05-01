@@ -12,6 +12,12 @@ body {
     font-size: 1em;
     line-height: 1.4em;
     font-weight: normal;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#main {
+    flex: 1;
 }
 h1,
 h2,
@@ -347,6 +353,7 @@ footer {
     border-top: 5px solid #337ab7;
     position: relative;
     margin: 0 auto;
+    width: 100%;
 }
 footer .grid_6 {
     margin-bottom: 0;
