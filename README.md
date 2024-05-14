@@ -1,6 +1,6 @@
 # Privat-Layout for Ilch 2
 
-_This is my first template for CMS Ilch 2._
+_This is my first template for CMS Ilch up to v.2.1_
 
 ### Installation
 - den Ordner "application" in das Hauptverzeichnis des CMS ilch 2 kopieren
