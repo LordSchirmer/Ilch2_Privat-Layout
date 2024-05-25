@@ -6,8 +6,8 @@ class Config extends \Ilch\Config\Install
 {
     public $config = [
         'name' => 'Ilch-Privat',
-        'version' => '1.1.2',
-        'ilchCore' => '2.1.52',
+        'version' => '1.2.0',
+        'ilchCore' => '2.2.0',
         'author' => 'Lord|Schirmer',
         'link' => 'https://www.ilch.de',
         'desc' => 'Privat Layout',
@@ -31,6 +31,7 @@ class Config extends \Ilch\Config\Install
             'button1' => [
                 'type' => 'flipswitch',
                 'default' => '1',
+                'description' => '',
                 ],
             'textButton1' => [
                 'type' => 'text',
@@ -40,9 +41,10 @@ class Config extends \Ilch\Config\Install
                 'type' => 'text',
                 'default' => 'https://www.ilch.de/',
                 ],
-             'button2' => [
+            'button2' => [
                 'type' => 'flipswitch',
                 'default' => '1',
+                'description' => '',
                 ],
             'textButton2' => [
                 'type' => 'text',
@@ -55,6 +57,7 @@ class Config extends \Ilch\Config\Install
             'button3' => [
                 'type' => 'flipswitch',
                 'default' => '1',
+                'description' => '',
                 ],
             'textButton3' => [
                 'type' => 'text',
@@ -79,6 +82,7 @@ class Config extends \Ilch\Config\Install
             'sliderButton2' => [
                 'type' => 'flipswitch',
                 'default' => 'Slider 2',
+                'description' => '',
                 ],
             'sliderText2' => [
                 'type' => 'text',
@@ -92,6 +96,7 @@ class Config extends \Ilch\Config\Install
             'sliderButton3' => [
                 'type' => 'flipswitch',
                 'default' => 'Slider 3',
+                'description' => '',
                 ],
             'sliderText3' => [
                 'type' => 'text',
@@ -105,6 +110,7 @@ class Config extends \Ilch\Config\Install
             'sliderButton4' => [
                 'type' => 'flipswitch',
                 'default' => 'Slider 4',
+                'description' => '',
                 ],
             'sliderText4' => [
                 'type' => 'text',
@@ -118,6 +124,7 @@ class Config extends \Ilch\Config\Install
             'sliderButton5' => [
                 'type' => 'flipswitch',
                 'default' => 'Slider 5',
+                'description' => '',
                 ],
             'sliderText5' => [
                 'type' => 'text',
@@ -137,12 +144,19 @@ class Config extends \Ilch\Config\Install
         ],
     ];
 
-    public function getUpdate(string $installedVersion)
+    public function getUpdate($installedVersion)
     {
         switch ($installedVersion) {
-            case '1.0.0':
-            case '1.0.1':
-            case '1.0.2':
+            case "1.0.0":
+                // Anweisungen
+            case "1.0.2":
+                // Anweisungen
+            case "1.1.1":
+                // Anweisungen
+            case "1.1.2":
+                // Anweisungen
+            case "1.2.0":
+                // Anweisungen
         }
     }
 }
